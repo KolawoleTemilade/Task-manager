@@ -1,0 +1,37 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    width: 100%;
+    border: 4px solid red;
+    padding: 25px;
+}
+
+/* form styling */
+form{
+display: flex;
+flex-direction: column;
+gap: 20px;
+
+}
+.input_group{
+    position: relative;
+    width: 100%;
+}
+.input_group img{
+    position: absolute;
+    left: 10px;
+    width: 20px;
+    height: 20px;
+    top: 12px;
+}
+
+.secondary {
+    background: #EDAD00;
+}
+.secondary :hover {
+    background: #D78F00;
+}

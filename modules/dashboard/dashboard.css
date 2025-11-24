@@ -1,0 +1,31 @@
+#side_bar{
+    width: 40%;
+    background: #000;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_profile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.user_avatar{
+    border: 2px solid;
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    background: rgba(41, 41, 240, 0.828);
+
+}
+.user_details{
+    display: flex;
+    flex-direction: column;
+}
+nav ul li {
+text-transform: none
+;
+text-decoration: none;
+}
